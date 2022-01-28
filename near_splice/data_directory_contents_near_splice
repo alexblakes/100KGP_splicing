@@ -1,0 +1,23 @@
+The ./data directory contains the following files:
+	rare_disease_analysis_2021-10-22_12-52-21.tsv
+		Text file downloaded from GEL LabKey "Rare Disease Analysis" table
+		Columns: Participant Id; Plate Key; Biological Relationship To Proband; Genome; Genome Build
+		Filters applied prior to download:
+			Biological Relationship To Proband = "Mother" OR "Father"
+			Genome = "Available"
+			Genome Build = "GRCh38"
+	rare_diseases_pedigree_member_2021-10-22_12-48-13.tsv
+		Text file downloaded from GEL LabKey "Rare Diseases Pedigree Member" table
+		Columns: Participant Id; Affection Status
+		No filters applied prior to download
+	aggV2_vcf_file_paths.tsv
+		Text file with paths to GEL AggV2 VCF chunks. One chunk per line.
+		Derived from column 6 of the GEL aggV2_chunk_names.bed, available at: /gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/chunk_names/aggV2_chunk_names.bed
+	vcf_38_header.txt
+		Arbitrary VCF header for VCF outputs.
+		Includes contig lengths for GRCh38 chr1-22, chrX and chrY, and VCF column names
+	forSanger_1KG_mutation_rate_table.txt
+		Mutability scores for given sequence contexts. 
+		Downloaded from https://github.com/pjshort/dddMAPS/tree/master/data
+		Reference: Samocha, K. E. et al. A framework for the interpretation of de novo mutation in human disease. Nat. Genet. 46, 944-950 (2014)
+		

@@ -1,0 +1,37 @@
+The ./data directory contains the following files:
+	denovo_flagged_variants_2021-11-18_16-55-59.tsv
+		Text file downloaded from GEL LabKey "De Novo Flagged Variants" table
+		Only includes DNMs passing all base and stringent filters
+		Filters applied before download:
+			Stringent Filter = "1"
+	rare_diseases_pedigree_member_2021-11-18_17-10-07.tsv
+		Text file downloaded from GEL LabKey
+		No filters applied before download
+	rare_diseases_participant_phen_2021-11-18_17-00-10.tsv
+		Text file downloaded from GEL LabKey
+		Filters applied before download:
+			HPO Present = "Yes"
+	rare_disease_analysis_2021-11-18_17-07-03.tsv
+		Text file downloaded from GEL LabKey
+		No filters applied before download
+	denovo_cohort_information_2021-11-18_16-57-09.tsv
+		Text file downloaded from GEL LabKey
+		No filters applied before download
+	gmc_exit_questionnaire_2021-11-18_17-01-01.tsv
+		Text file downloaded from GEL LabKey
+		No filters applied before download
+	DDG2P_27_10_2021.csv
+		Text file containing G2P developmental disorder gene annotations
+		Available at: https://www.ebi.ac.uk/gene2phenotype/downloads
+	EyeG2P_27_10_2021.csv
+		Text file containing G2P eye gene annotations
+		Available at: https://www.ebi.ac.uk/gene2phenotype/downloads
+	SkinG2P_27_10_2021.csv
+		Text file containing G2P skin gene annotations
+		Available at: https://www.ebi.ac.uk/gene2phenotype/downloads
+	vcf_38_header.txt
+		Arbitrary VCF header for VCF outputs.
+		Includes contig lengths for GRCh38 chr1-22, chrX and chrY, and VCF column names
+	tiering_data_2021-11-18_17-21-18.tsv
+		Text file downloaded from GEL LabKey
+		No filters applied prior to download
