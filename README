@@ -1,15 +1,13 @@
 Code for 100K Splicing Project: "A systematic analysis of splicing variants identifies new diagnoses in the 100,000 Genomes Project."
 
-The "branchpoints", "candidate_variants", and "near_splice" folders have the same subfolder structure:
+The "branchpoints", "candidate_variants", and "near_splice" directories have the same structure:
 	|--- data
 	|--- outputs
 	|--- plotting
 	|--- scripts
 	|--- stats
 
-A text file in each folder describes the contents of the respective "data" folder.
-The ./scripts folder contains all script necessary to produce the relevant data and statistics.
-The commands in scripts/run_all.sh will run all of the scripts in this folder in the correct order.
-The plotting folder contains scripts to generate plots.
-
-
+A text file in each directory describes the contents of the respective "data" directory.
+The scripts directory contains all script necessary to produce the relevant data and statistics.
+The commands in ./scripts/run_all.sh will run all of the scripts in this directory in the correct order.
+The plotting directory contains scripts to generate plots.
